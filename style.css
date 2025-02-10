@@ -3,18 +3,21 @@ h1 {
     font-size: 40px;
     text-align: center;
     font-family: Gabriola;
+    display: flex;
 }
 p {
     color: #c1627f;
     font-size: 20px;
     text-align: center;
     font-family: Gabriola;
+    display: flex;
 }
-span {
+p1 {
     color: #c1627f;
     font-size: 15px;
     text-align: center;
     font-family: Gabriola;
+    display: flex;
 }
 body {
     margin: 0;
