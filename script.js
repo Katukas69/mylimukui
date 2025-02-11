@@ -31,3 +31,31 @@ document.addEventListener("DOMContentLoaded", () => {
         }, duration * 1000);
     }
 });
+// Function to open the modal1 with the clicked image
+function openModal1(image2) {
+    var modal1 = document.getElementById("modal1");
+    var modal1Image2 = document.getElementById("modal1-image2");
+
+    modal1.style.display = "flex";
+    modal1Image2.src = image2.src;
+}
+
+// Function to close the modal1
+function closeModal1() {
+    var modal1 = document.getElementById("modal1");
+    modal1.style.display = "none";
+}
+// Function to open the modal2 with the clicked image
+function openModal2(image3) {
+    var modal2 = document.getElementById("modal2");
+    var modal2Image3 = document.getElementById("modal2-image3");
+
+    modal2.style.display = "flex";
+    modal2Image3.src = image3.src;
+}
+
+// Function to close the modal2
+function closeModal2() {
+    var modal2 = document.getElementById("modal2");
+    modal2.style.display = "none";
+}
