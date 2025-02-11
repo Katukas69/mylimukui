@@ -37,6 +37,6 @@ body {
     position: fixed;     /* Fix the image in the viewport */
     bottom: 0;           /* Position the image at the bottom */
     left: 0;             /* Position the image on the left */
-    width: 50%;        /* Optional: set the size of the image */
+    width: 100px;        /* Optional: set the size of the image */
     height: auto;        /* Maintain the aspect ratio */
 }
