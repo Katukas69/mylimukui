@@ -46,6 +46,10 @@ html, body {
     height: auto;     /* Maintain the aspect ratio */
     border-radius: 15px; /* Rounds all corners with a 15px radius */
     margin: 15px;  /* Adds 20px of space around the image (top, right, bottom, left) */
+    transition: transform 0.3s ease;
+}
+.image2:hover {
+    transform: scale(1.05);
 }
 .image3 {
     position: fixed;  /* Fix the image to the viewport */
@@ -55,4 +59,8 @@ html, body {
     height: auto;     /* Maintain the aspect ratio */
     border-radius: 15px; /* Rounds all corners with a 15px radius */
     margin: 15px;  /* Adds 20px of space around the image (top, right, bottom, left) */
+    transition: transform 0.3s ease;
+}
+.image3:hover {
+    transform: scale(1.05);
 }
