@@ -38,7 +38,7 @@ html, body {
     margin: 0;    /* Remove default margin */
 }
 
-.image-left-bottom {
+.image2 {
     position: fixed;  /* Fix the image to the viewport */
     bottom: 0;        /* Position at the bottom of the page */
     left: 0;          /* Position at the left of the page */
@@ -46,7 +46,7 @@ html, body {
     height: auto;     /* Maintain the aspect ratio */
     margin: 20px;  /* Adds 20px of space around the image (top, right, bottom, left) */
 }
-.image-right-bottom {
+.image3 {
     position: fixed;  /* Fix the image to the viewport */
     bottom: 0;        /* Position at the bottom of the page */
     right: 0;          /* Position at the left of the page */
