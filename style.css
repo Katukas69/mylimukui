@@ -47,9 +47,10 @@ html, body {
     border-radius: 15px; /* Rounds all corners with a 15px radius */
     margin: 15px;  /* Adds 20px of space around the image (top, right, bottom, left) */
     transition: transform 0.3s ease;
+    will-change: transform; /* Informs the browser about the upcoming transform */
 }
 .image2:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 .image3 {
     position: fixed;  /* Fix the image to the viewport */
@@ -60,7 +61,8 @@ html, body {
     border-radius: 15px; /* Rounds all corners with a 15px radius */
     margin: 15px;  /* Adds 20px of space around the image (top, right, bottom, left) */
     transition: transform 0.3s ease;
+    will-change: transform; /* Informs the browser about the upcoming transform */
 }
 .image3:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
