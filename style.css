@@ -33,10 +33,10 @@ body {
     100% { transform: translateY(-100vh) scale(0.5); opacity: 0; }
 }
 /*photo css*/
-/*.image {
-      position: fixed;     /* Fix the image in the viewport */
-/*    bottom: 0;           /* Position the image at the bottom */
-/*    left: 0;             /* Position the image on the left */
- /*   width: 100px;        /* Optional: set the size of the image */
-/*    height: auto;        /* Maintain the aspect ratio */
-/*}*/
+.image {
+    position: fixed;     /* Fix the image in the viewport */
+    bottom: 0;           /* Position the image at the bottom */
+    left: 0;             /* Position the image on the left */
+    width: 100px;        /* Optional: set the size of the image */
+    height: auto;        /* Maintain the aspect ratio */
+}
