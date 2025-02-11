@@ -41,7 +41,7 @@ function openModal1(image2) {
 }
 
 // Function to close the modal1
-function closeModal1() {
+function close1Modal1() {
     var modal1 = document.getElementById("modal1");
     modal1.style.display = "none";
 }
@@ -55,7 +55,7 @@ function openModal2(image3) {
 }
 
 // Function to close the modal2
-function closeModal2() {
+function close2Modal2() {
     var modal2 = document.getElementById("modal2");
     modal2.style.display = "none";
 }
