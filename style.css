@@ -45,6 +45,7 @@ html, body {
     width: 300px;     /* Optional: set the size of the image */
     height: auto;     /* Maintain the aspect ratio */
     border-radius: 15px; /* Rounds all corners with a 15px radius */
+    margin: 15px;  /* Adds 20px of space around the image (top, right, bottom, left) */
 }
 .image3 {
     position: fixed;  /* Fix the image to the viewport */
@@ -53,4 +54,5 @@ html, body {
     width: 300px;     /* Optional: set the size of the image */
     height: auto;     /* Maintain the aspect ratio */
     border-radius: 15px; /* Rounds all corners with a 15px radius */
+    margin: 15px;  /* Adds 20px of space around the image (top, right, bottom, left) */
 }
