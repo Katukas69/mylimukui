@@ -117,4 +117,9 @@ html, body {
     color: white;
     font-size: 40px;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+}
+.close:hover {
+    transform: scale(1.01);
 }
