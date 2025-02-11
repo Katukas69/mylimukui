@@ -38,10 +38,18 @@ html, body {
     margin: 0;    /* Remove default margin */
 }
 
-.image {
+.image-left-bottom {
     position: fixed;  /* Fix the image to the viewport */
     bottom: 0;        /* Position at the bottom of the page */
     left: 0;          /* Position at the left of the page */
+    width: 300px;     /* Optional: set the size of the image */
+    height: auto;     /* Maintain the aspect ratio */
+    margin: 20px;  /* Adds 20px of space around the image (top, right, bottom, left) */
+}
+.image-right-bottom {
+    position: fixed;  /* Fix the image to the viewport */
+    bottom: 0;        /* Position at the bottom of the page */
+    right: 0;          /* Position at the left of the page */
     width: 300px;     /* Optional: set the size of the image */
     height: auto;     /* Maintain the aspect ratio */
     margin: 20px;  /* Adds 20px of space around the image (top, right, bottom, left) */
